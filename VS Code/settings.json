@@ -1,0 +1,104 @@
+{
+    "editor.tabSize": 2,
+    "security.workspace.trust.untrustedFiles": "open",
+    "redhat.telemetry.enabled": false,
+    "editor.codeLens": false,
+    "explorer.confirmDelete": false,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "security.workspace.trust.enabled": false,
+    "editor.autoClosingBrackets": "never",
+    "editor.semanticTokenColorCustomizations": {
+        "[Default Dark+]": {
+            "enabled": true,
+            "rules": {
+                "*.mutable": {
+                    "underline": false,
+                },
+                "macro": "#e9ce76",
+                "attributeBracket": "#808080",
+                "formatSpecifier": "#d4d4d4",
+                "*.controlFlow": "#d11e4b",
+                "*.keyword.control": "#d11e4b",
+                "*.async": "#d11e4b",
+                //"storage.modifier.lifetime.rust": "#808080",
+                "function": "#e9ce76",
+                "method": "#e9ce76",
+                "attribute": "#c5c5c5",
+                "*.constant": "#d4d4d4",
+                "enumMember": "#d4d4d4",
+                "builtinType":"#569CD6"
+            }
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "[Default Dark+]": {
+            "functions": "#e9ce76",
+            "strings": "#d6985e",
+            "types": "#00cf9b",
+            "textMateRules": [
+                {
+                    "scope": "constant",
+                    "settings": {
+                        "foreground": "#d4d4d4"
+                    }
+                },
+                {
+                    "scope": "keyword.control",
+                    "settings": {
+                        "foreground": "#d11e4b",
+                    }
+                },
+                {
+                    "scope": "punctuation.definition.interpolation",
+                    "settings": {
+                        "foreground": "#d4d4d4",
+                    }
+                },
+                {
+                    "scope": "entity.name.namespace",
+                    "settings": {
+                        "foreground": "#00cf9b"
+                    }
+                },
+                {
+                    "scope": "storage.type.cs",
+                    "settings": {
+                        "foreground": "#00cf9b"
+                    }
+                },
+                {
+                    "scope": "keyword.other.using",
+                    "settings": {
+                        "foreground": "#569CD6"
+                    }
+                },
+                {
+                    "scope": "storage.modifier.lifetime",
+                    "settings": {
+                        "foreground": "#A0A0A0"
+                    }
+                },
+                {
+                    "scope": "entity.name.type.lifetime",
+                    "settings": {
+                        "foreground": "#A0A0A0"
+                    }
+                }
+            ]
+        }
+    },
+    "rust-analyzer.inlayHints.enable": false,
+    "debug.allowBreakpointsEverywhere": true,
+    "rust-analyzer.inlayHints.chainingHints.enable": false,
+    "rust-analyzer.inlayHints.parameterHints.enable": false,
+    "rust-analyzer.inlayHints.typeHints.enable": false,
+    "editor.bracketPairColorization.enabled": false,
+    "search.exclude": {
+        "**/*.d": true
+    },
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "rust-analyzer.inlayHints.closingBraceHints.enable": false
+}
